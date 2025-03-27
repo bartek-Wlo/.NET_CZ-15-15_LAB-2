@@ -9,7 +9,7 @@ namespace StudentAPI
 
         public override string ToString ()
         {
-        return $"User Id: {userId},\tId: {id},\tTitle: {title, -15},\tCompleted: {completed}";
+        return $"User Id: {userId},\tId: {id+",",-5}\tTitle: {title+",",-20}\tCompleted: {completed}";
         }
     }
 }
