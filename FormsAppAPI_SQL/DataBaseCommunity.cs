@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using System.Runtime.CompilerServices;
+[assembly: InternalsVisibleTo("MauiAppAPI")]
 
 namespace StudentAPI.DataBase
 {

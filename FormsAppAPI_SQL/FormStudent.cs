@@ -1,12 +1,11 @@
 using System.Windows.Forms;
 using System.Text.Json;
 using StudentAPI.DataBase;
-using SQLitePCL;
-using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using System.Runtime.Intrinsics.Arm;
-using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
 /* https://jsonplaceholder.typicode.com/ */
+
+using System.Runtime.CompilerServices;
+[assembly: InternalsVisibleTo("MauiAppAPI")]
 
 namespace StudentAPI
 {

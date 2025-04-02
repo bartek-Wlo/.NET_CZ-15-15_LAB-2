@@ -1,3 +1,6 @@
+using System.Runtime.CompilerServices;
+[assembly: InternalsVisibleTo("MauiAppAPI")]
+
 namespace StudentAPI;
 using StudentAPI.DataBase;
 

@@ -4,4 +4,4 @@ WinFormsAPI -     3.1 Zadanie 1      GUI,           z API wypisująca użytkowni
 
 FormsAppAPI_SQL - 3.2 Zadanie 2      GUI + SQL      zarządzanie bazą danych w windows Forms
                   
-x                 3.3 Zadanie 3
+MauiAppAPI -      3.3 Zadanie 3      MAUI + SQL
