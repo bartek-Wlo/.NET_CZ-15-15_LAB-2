@@ -5,3 +5,5 @@ WinFormsAPI -     3.1 Zadanie 1      GUI,           z API wypisująca użytkowni
 FormsAppAPI_SQL - 3.2 Zadanie 2      GUI + SQL      zarządzanie bazą danych w windows Forms
                   
 MauiAppAPI -      3.3 Zadanie 3      MAUI + SQL
+
+Do Maui: dotnet run -t:Build -f net9.0-windows10.0.19041.0

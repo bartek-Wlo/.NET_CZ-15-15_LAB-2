@@ -1,0 +1,116 @@
+# Plik .gitignore dla projektów .NET (C#, WinForms, MAUI, Entity Framework)
+
+## Systemowe/IDE ##
+# Pliki specyficzne dla systemu operacyjnego
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Entity Framework Core
+Migrations/
+app.db
+app.db-journal
+
+# Pliki specyficzne dla Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Pliki specyficzne dla Visual Studio Code
+.vscode/
+
+## Pliki budowania ##
+# Foldery wyjściowe kompilacji
+[Bb]in/
+[Oo]bj/
+publish/
+
+# Pliki generowane podczas budowy
+*.pdb
+*.dll
+*.exe
+*.msi
+*.msm
+*.appx
+*.appxbundle
+*.cer
+*.pfx
+*.ilk
+*.exp
+*.lib
+*.winmd
+
+# Pliki blokady zależności (opcjonalnie, można zostawić jeśli używane świadomie)
+# packages.lock.json
+
+## Zależności NuGet ##
+# Folder packages (starszy styl zarządzania pakietami)
+packages/
+# Pliki przywracania pakietów (generowane lokalnie)
+project.lock.json
+project.assets.json
+
+## Pliki testowe ##
+# Wyniki testów
+TestResults/
+*.trx
+*.coverage
+*.coverlet.json
+
+## Pliki Entity Framework ##
+# Lokalne pliki baz danych (np. LocalDB, SQLite) - dostosuj do swoich potrzeb!
+*.mdf
+*.ldf
+*.db
+*.db3
+*.sqlite
+*.sqlite3
+
+# Narzędzia EF Core
+*.efbundle
+
+# Pliki migracji SĄ zazwyczaj wersjonowane, więc NIE są tutaj ignorowane.
+# Jeśli używasz narzędzi generujących inne pliki tymczasowe, dodaj je tutaj.
+
+## Pliki MAUI ##
+# Pliki specyficzne dla platform, jeśli nie są częścią kodu źródłowego
+# Zazwyczaj obj/ i bin/ pokrywają większość generowanych plików platformowych.
+# Można dodać specyficzne wzorce, jeśli pojawią się problemy.
+
+## Pliki Windows Forms ##
+# Zazwyczaj obj/ i bin/ pokrywają generowane pliki WinForms.
+# Specyficzne pliki cache projektanta mogą być w .vs/ lub obj/
+
+## Inne popularne wykluczenia ##
+# Pliki logów
+*.log
+*.txt # Jeśli używasz plików .txt do logów/danych tymczasowych
+
+# Pliki tymczasowe
+*.tmp
+*.bak
+~$*.* # Pliki tymczasowe Office
+
+# Ustawienia lokalne/deweloperskie (zawierające np. klucze API, connection stringi)
+# Zazwyczaj trzymane w User Secrets lub zmiennych środowiskowych,
+# ale można wykluczyć pliki konfiguracyjne specyficzne dla środowiska deweloperskiego.
+appsettings.Development.json
+secrets.json
+
+# Narzędzia do analizy kodu / Resharper
+_ReSharper*/
+*.resharper
+*.DotSettings.user
+
+# Narzędzia profilowania i inne
+*.psess
+*.vsp
+*.vspx
+BenchmarkDotNet.Artifacts/
+
+# Pliki archiwów
+*.zip
+*.rar
+*.7z
