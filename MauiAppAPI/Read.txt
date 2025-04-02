@@ -1,0 +1,8 @@
+Kompilacja:
+dotnet build -t:Build -p:Configuration=Debug -f net9.0-windows10.0.19041.0 -p:WindowsPackageType=None 'C:\Users\b7484\VSC\NETjava\LAB 2\Projekt_apli_bazodanowej\MauiAppAPI\MauiAppAPI.csproj'
+
+Uruchom:
+dotnet build -t:Build -p:Configuration=Debug -f net9.0-windows10.0.19041.0 -p:WindowsPackageType=None 'C:\Users\b7484\VSC\NETjava\LAB 2\Projekt_apli_bazodanowej\MauiAppAPI\MauiAppAPI.csproj'
+
+Też powinno zadziałać:
+dotnet run -f net9.0-windows10.0.19041.0
